@@ -1,7 +1,10 @@
 
-body {
-    background-image: url(../img/geografiachile.jpg.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
+
+/* estilos seccion 2: ¿Quiénes somos? */
+
+.barras-color {
+    background-color: aqua;
+    display: block;
+    width: auto;
+    height: 15px;
 }
