@@ -46,6 +46,10 @@ p {
 
 /* Estilos seccion 2: destacados */
 
+.card {
+    width: 18rem;
+}
+
 .card-body {
     background-color: #0ECAF0;
 }
@@ -87,4 +91,42 @@ footer {
     text-decoration: none;
     display: inline-flex;
     margin-right: 10px;
+}
+
+/* Media queries */
+
+@media (max-width: 576px) {
+
+    #seccion2 {
+        display: none;
+    }
+
+    .card {
+        width: 416px;
+        height: auto;
+        margin: 10px auto;
+        float: none;
+    }
+
+    .card-body {
+        background-color: #0ECAF0;
+    }
+    
+    .card-img-top {
+            height: 180px;
+    }
+    
+    .card-title {
+        color: #ffffff;
+    }
+
+    #texto-footer {
+        color: #ffffff;
+        font-weight: 300;
+        display: none;
+        font-size: x-large;
+        margin-left: 150px;
+        margin-top: 15px;
+    }
+
 }
