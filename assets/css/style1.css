@@ -3,6 +3,10 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-primary);
+}
+
 /* Estilos navbar */
 
 #logotipo {
@@ -31,7 +35,7 @@ i {
 .barras-color {
     background-color: #0ECAF0;
     display: block;
-    height: 30px;
+    height: 40px;
 }
 
 
