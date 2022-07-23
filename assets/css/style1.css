@@ -10,6 +10,13 @@ body {
     margin-right: 2px;
 }
 
+
+h3 {
+
+    font-weight: 300;
+}
+
+
 /* Estilos seccion 1: ¿Quiénes somos? */
 
 hr {
@@ -48,12 +55,14 @@ p {
 }
 
 
-/* Estilos sección 3: */
+/* Estilos sección 3: CONTACTO */
 
 
+#formulario {
+    margin-bottom: 3rem;
+}
 
-
-/* Estilos sección Footer */
+/* Estilos sección FOOTER */
 
 footer {
     background-color: #0ECAF0;
