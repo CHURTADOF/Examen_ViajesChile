@@ -1,10 +1,33 @@
+body {
+    background-color: black;
+}
 
+/* Estilos navbar */
+
+#logotipo {
+    width: 30px;
+    height: auto;
+    margin-right: 2px;
+}
 
 /* estilos seccion 2: ¿Quiénes somos? */
 
+
 .barras-color {
-    background-color: aqua;
+    background-color: #0ECAF0;
     display: block;
-    width: auto;
-    height: 15px;
+    height: 30px;
+}
+
+
+p {
+    color: #ffffff;
+    text-align: left;
+}
+
+
+/* Estilos sección Footer */
+
+footer {
+    background-color: #0ECAF0;
 }
