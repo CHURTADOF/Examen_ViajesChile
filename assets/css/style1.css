@@ -10,8 +10,16 @@ body {
     margin-right: 2px;
 }
 
-/* estilos seccion 2: ¿Quiénes somos? */
+/* Estilos seccion 1: ¿Quiénes somos? */
 
+hr {
+    border-bottom: 0.5px solid #fff;
+    width: auto;
+}
+
+i {
+    color: #ffffff;
+}
 
 .barras-color {
     background-color: #0ECAF0;
@@ -24,6 +32,25 @@ p {
     color: #ffffff;
     text-align: left;
 }
+
+/* Estilos seccion 2: destacados */
+
+.card-body {
+    background-color: #0ECAF0;
+}
+
+.card-img-top {
+        height: 180px;
+}
+
+.card-title {
+    color: #ffffff;
+}
+
+
+/* Estilos sección 3: */
+
+
 
 
 /* Estilos sección Footer */
